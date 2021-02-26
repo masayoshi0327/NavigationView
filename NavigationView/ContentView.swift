@@ -26,7 +26,7 @@ struct ContentView: View {
             //ここから
             NavigationView {
                 List(0..<4) { n in
-                    NavigationLink(regions[n], destination: Region(id: n, regionName: regions[n]))// 遷移のトリガーと遷移先のビューを指定
+                    NavigationLink(regions[n], destination: Region(id: n, regionName: regions[n]))
                 }
                 .navigationTitle("そらをとぶ")
             }
