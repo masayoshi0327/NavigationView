@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
+            // ここから
             HStack{
                 Spacer()
                 Button(action: {}, label: {
@@ -20,6 +21,7 @@ struct ContentView: View {
                 })
             }
             .padding(.horizontal)
+            // ここまではNavigationViewに含まれない
             
             NavigationView {
                 List(0..<4) { n in
