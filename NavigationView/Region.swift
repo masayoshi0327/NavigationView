@@ -9,8 +9,8 @@ import SwiftUI
 
 struct Region: View {
     
-    let id: Int
-    let regionName: String
+    let id: Int //地方によって表示を変えるためのプロパティ
+    let regionName: String //地方の名前をタイトルにするためのプロパティ
     
     var body: some View {
         //NavigationViewは書かない
