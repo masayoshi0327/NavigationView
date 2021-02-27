@@ -23,14 +23,12 @@ struct ContentView: View {
             .padding(.horizontal)
             // ここまではNavigationViewに含まれない
             
-            //ここから
             NavigationView {
                 List(0..<4) { n in
                     NavigationLink(regions[n], destination: Region(id: n, regionName: regions[n]))
                 }
-                .navigationTitle("そらをとぶ")
+                .navigationTitle("そらをとぶ") //ここでタイトルをつけている
             }
-            //ここまでがNavigationViewの領域
         }
     }
 }

@@ -24,6 +24,7 @@
 		C441427025E884A7004191A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C441428625E88B1C004191A0 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		C441428925E8A3F7004191A0 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		C441428C25EA559D004191A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		C441425B25E884A3004191A0 = {
 			isa = PBXGroup;
 			children = (
+				C441428C25EA559D004191A0 /* README.md */,
 				C441426625E884A3004191A0 /* NavigationView */,
 				C441426525E884A3004191A0 /* Products */,
 			);
