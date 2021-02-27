@@ -27,8 +27,9 @@ struct ContentView: View {
                 List(0..<4) { n in
                     NavigationLink(regions[n], destination: Region(id: n, regionName: regions[n]))
                 }
-                .navigationTitle("そらをとぶ") //ここでタイトルをつけている
+                .navigationTitle("そらをとぶ")
             }
+//            .navigationTitle("そらをとぶ") //ここに書かない
         }
     }
 }
